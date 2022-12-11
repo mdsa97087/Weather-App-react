@@ -1,0 +1,250 @@
+@media all and (min-width:1249px) and (max-width:5000px){
+
+.bigdiv{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width: 70rem;
+      border: 10px solid rgb(34, 255, 0);
+      margin: auto;
+      margin-top: 50px;
+      padding: 40px;
+      box-shadow: rgb(48, 244, 4) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      background-color: #270303;
+      
+      color:#d9d9ce ;
+      gap: 30px;
+
+
+
+}
+.box{
+      border: 1px solid rgb(72, 33, 33);
+      width: 30rem;
+      /* height: 400px; */
+      box-shadow: rgba(40, 4, 244, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      position: relative;
+      overflow: hidden;
+      transform: translate3d(0,0,0);
+
+
+}
+.box2{
+      /* border: 1px solid black; */
+       width: 35rem;
+       box-shadow: rgba(40, 4, 244, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      /* height: 400px; */
+}
+.inputFeild{
+      padding: 20px;
+      margin-top:20px;
+      width: 80%;
+      height: 40px;
+      border-radius: 5px;
+      box-shadow: rgba(4, 244, 52, 0.233) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+i{
+      height: 50px;
+      animation: rotateY-anim 2s linear infinite;
+      margin-top: 50px;
+      margin-right:30px ;
+     
+}
+@keyframes rotateY-anim {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+.mapouter {
+                             
+      position: relative;
+      /* text-align: right; */
+      height: 400px;
+      width: 400px;
+      /* margin-left: 600px; */
+      /* margin-top: -300px; */
+      
+}
+.gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      height: 400px;
+      width: 35rem;
+     
+}
+
+
+
+
+
+
+}
+      /* MEDIA QUERY */
+
+      /* FOR MEDIUM SCREEN */
+
+@media (min-width:480px) and (max-width:1250px)  {
+      .bigdiv{
+            border: 10px solid yellow;
+            width: 40rem;
+            height: 900px;
+            /* display: grid;
+            grid-template-rows:repeat(2,1fr); */
+            background-color: rgb(22, 28, 26);
+            margin: auto;
+            color: #d9d9ce;
+           
+      }
+      .box{
+            border: 1px solid rgb(131, 6, 6);
+            width: 35rem;
+            height: 400px;
+            box-shadow: rgba(4, 244, 148, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            /* position: relative;
+            overflow: hidden; */
+            transform: translate3d(0,0,0);
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 25px;
+      
+      
+      }
+      .box2{
+            /* border: 1px solid black; */
+             width: 35rem;
+             box-shadow: rgba(220, 244, 4, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            height: 400px;
+            margin: auto;
+      }
+      .inputFeild{
+            padding: 20px;
+            margin-top:20px;
+            width: 80%;
+            height: 40px;
+            border-radius: 5px;
+            box-shadow: rgba(4, 244, 52, 0.233) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+      i{
+            height: 50px;
+            animation: rotateY-anim 2s linear infinite;
+            margin-top: 50px;
+            margin-right:30px ;
+           
+      }
+      @keyframes rotateY-anim {
+            0% {
+                  transform: rotateY(0deg);
+            }
+      
+            100% {
+                  transform: rotateY(360deg);
+            }
+      }
+      .mapouter {
+                             
+            position: relative;
+            /* text-align: right; */
+            height: 400px;
+            width: 400px;
+            /* margin-left: 600px; */
+            /* margin-top: -300px; */
+            
+      }
+      .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 400px;
+            width: 35rem;
+           
+      }
+
+
+
+}
+
+
+/* FOR SMALL SCREEN */
+
+@media all and (min-width:0px) and (max-width:479px)  {
+
+      .bigdiv{
+            border: 10px solid yellow;
+            width: 20rem;
+            height: 500px;
+            /* display: grid;
+            grid-template-rows:repeat(2,1fr); */
+            background-color: rgb(22, 28, 26);
+            margin: auto;
+            color: #d9d9ce;
+           
+      }
+      .box{
+            border: 1px solid rgb(131, 6, 6);
+            width: 18rem;
+            height: 250px;
+            box-shadow: rgba(4, 244, 148, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            /* position: relative;
+            overflow: hidden; */
+            transform: translate3d(0,0,0);
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 25px;
+      
+      
+      }
+      .box2{
+            /* border: 1px solid black; */
+             width: 20rem;
+             box-shadow: rgba(220, 244, 4, 0.893) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            height: 200px;
+            margin: auto;
+      }
+      .inputFeild{
+            padding: 15px;
+            margin-top:2px;
+            width: 80%;
+            height: 5px;
+            border-radius: 5px;
+            box-shadow: rgba(4, 244, 52, 0.233) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+      i{
+            
+            animation: rotateY-anim 2s linear infinite;
+            margin-top: 10px;
+            margin-right:10px ;
+           
+      }
+      @keyframes rotateY-anim {
+            0% {
+                  transform: rotateY(0deg);
+            }
+      
+            100% {
+                  transform: rotateY(360deg);
+            }
+      }
+      
+      .mapouter {
+                             
+            position: relative;
+            height: 8px;
+            width: 20rem;
+           
+            
+      }
+      .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 200px;
+            width: 18rem;
+           
+      }
+
+
+}
+
+
